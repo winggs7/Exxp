@@ -85,8 +85,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 		
 		beginTime = System.nanoTime();
 		while(isRunning) {
-			
-			//System.out.println("a= "+ a++);
 					
 			UpdateGame();
 			RenderGame();
@@ -108,9 +106,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
-		
-		
 	}
 	
 	
